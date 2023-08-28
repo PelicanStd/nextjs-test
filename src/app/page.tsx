@@ -2,9 +2,9 @@ import os from 'os'
 import Counter from "@/components/Counter";
 import Image from 'next/image'
 
+
+
 export default function Home() {
-  console.log('안녕 - 서버');
-  console.log(os.hostname());
   return (
     <>
       <h1>메인입니다</h1>

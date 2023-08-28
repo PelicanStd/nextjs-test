@@ -13,7 +13,7 @@ export default async function ProductsPage() {
       <ul className="flex flex-col">
         {products.map(({id,name}, index) =>(
           <li key={index}>
-            <Link href={`/product/${id}`}>{name}</Link>
+            <Link href={`/products/${id}`}>{name}</Link>
           </li>
         ))}
       </ul>
